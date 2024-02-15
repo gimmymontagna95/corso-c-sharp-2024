@@ -10,43 +10,35 @@ scaglioni di reddito in €	aliquota	imposta dovuta
 Scrivere un programma che dato in input il reddito determini l’imposta.
 
    */
+double CalcolaImpostaLorda(double reddito, double limiteEccedenza, double aliquota, double impostaBase = 0)
+{
+    return impostaBase + (reddito - limiteEccedenza) * aliquota / 100;
+}
 
 Console.WriteLine("Inserire il reddito");
 var reddito = int.Parse(Console.ReadLine());
 
-int impostaBase;
-int aliquota;
-int limiteEccedenza;
+double imposta;
 
 if (reddito <= 15000)
 {
-    impostaBase = 0;
-    aliquota = 23;
-    limiteEccedenza = 0;
+    imposta = CalcolaImpostaLorda(reddito, 3000, 23);
 }
 else if (reddito <= 28000)
 {
-    impostaBase = 3450;
-    aliquota = 27;
-    limiteEccedenza = 15000;
+    imposta = CalcolaImpostaLorda(reddito, 15000, 27, 3450);
 }
 else if (reddito <= 55000)
 {
-    impostaBase = 6960;
-    aliquota = 38;
-    limiteEccedenza = 28000;
+    imposta = CalcolaImpostaLorda(reddito, 28000, 38, 6960);
 }
 else if (reddito <= 75000)
 {
-    impostaBase = 17220;
-    aliquota = 41;
-    limiteEccedenza = 55000;
+    imposta = CalcolaImpostaLorda(reddito, 55000, 41, 17220);
 }
 else
 {
-    impostaBase = 25420;
-    aliquota = 43;
-    limiteEccedenza = 75000;
+    imposta = CalcolaImpostaLorda(reddito, 75000, 43, 25420);
 }
 
-Console.WriteLine($"L'imposta è pari a {impostaBase + (reddito - limiteEccedenza) * aliquota / 100} euro");
+Console.WriteLine($"L'imposta è pari a {imposta} euro");

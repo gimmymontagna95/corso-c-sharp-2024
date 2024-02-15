@@ -64,10 +64,18 @@ bool ValidateSesso(string input)
 
 string nome = ReadStringInput("Inserisci il tuo nome: ");
 
-if (!ValidateStringLength(nome, 2))
+bool nomeValido = ValidateStringLength(nome, 2);
+bool nomeNonValido = !nomeValido;
+if (nomeNonValido)
 {
     return;
 }
+// Equivalente a questo codice
+//if (!ValidateStringLength(nome, 2))
+//{
+//    return;
+//}
+
 
 string cognome = ReadStringInput("Inserisci il tuo cognome: ");
 

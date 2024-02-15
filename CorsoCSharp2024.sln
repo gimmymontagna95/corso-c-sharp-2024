@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsercizioImpostaLorda", "Es
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metodi", "Metodi\Metodi.csproj", "{9037BB27-5A88-4611-A7FA-4F4C14F88DDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopLevelStatements", "TopLevelStatements\TopLevelStatements.csproj", "{E1120635-7B3B-459E-878E-7AB0D0EEAD32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{9037BB27-5A88-4611-A7FA-4F4C14F88DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9037BB27-5A88-4611-A7FA-4F4C14F88DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9037BB27-5A88-4611-A7FA-4F4C14F88DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1120635-7B3B-459E-878E-7AB0D0EEAD32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1120635-7B3B-459E-878E-7AB0D0EEAD32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1120635-7B3B-459E-878E-7AB0D0EEAD32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1120635-7B3B-459E-878E-7AB0D0EEAD32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
