@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsempioArrayMenuRistorante"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cicli", "Cicli\Cicli.csproj", "{6333BBB5-6878-4C38-96C0-EF6F3FE7CD4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsercizioQuiz", "EsercizioQuiz\EsercizioQuiz.csproj", "{91771457-16F9-441F-BA28-52EF23D71F83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{6333BBB5-6878-4C38-96C0-EF6F3FE7CD4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6333BBB5-6878-4C38-96C0-EF6F3FE7CD4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6333BBB5-6878-4C38-96C0-EF6F3FE7CD4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91771457-16F9-441F-BA28-52EF23D71F83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91771457-16F9-441F-BA28-52EF23D71F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91771457-16F9-441F-BA28-52EF23D71F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91771457-16F9-441F-BA28-52EF23D71F83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

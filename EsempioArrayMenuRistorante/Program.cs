@@ -1,4 +1,15 @@
-﻿string[] menu = new string[]
+﻿string[] FilterMenu(string[] menu, string scelta)
+{
+    string sceltaMinuscola = scelta.ToLower();
+    string[] menuFiltrato = Array.FindAll(menu, (voceDelMenu) =>
+    {
+        string voceDelMenuMinuscola = voceDelMenu.ToLower();
+        return voceDelMenuMinuscola.Contains(sceltaMinuscola);
+    });
+    return menuFiltrato;
+}
+
+string[] menu = new string[]
 {
     "Insalata triste",
     "Pasta al pomodoro",
