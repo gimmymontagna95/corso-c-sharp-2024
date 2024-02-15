@@ -84,3 +84,4 @@ arrayDaCercare.Contains(5); // true
 // Le stringhe possono essere gestite come array di caratteri e quindi possono essere usate con tutti i metodi degli array
 string stringaDaConvertire = "ciao";
 char[] arrayDiCaratteri = stringaDaConvertire.ToArray();
+

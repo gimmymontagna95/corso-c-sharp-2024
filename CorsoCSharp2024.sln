@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayEList", "ArrayEList\Ar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsempioArrayMenuRistorante", "EsempioArrayMenuRistorante\EsempioArrayMenuRistorante.csproj", "{8AE3C9FA-8207-4C13-8F3D-C0EA534D06EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cicli", "Cicli\Cicli.csproj", "{6333BBB5-6878-4C38-96C0-EF6F3FE7CD4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{8AE3C9FA-8207-4C13-8F3D-C0EA534D06EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AE3C9FA-8207-4C13-8F3D-C0EA534D06EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AE3C9FA-8207-4C13-8F3D-C0EA534D06EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6333BBB5-6878-4C38-96C0-EF6F3FE7CD4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6333BBB5-6878-4C38-96C0-EF6F3FE7CD4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6333BBB5-6878-4C38-96C0-EF6F3FE7CD4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6333BBB5-6878-4C38-96C0-EF6F3FE7CD4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
