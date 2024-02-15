@@ -1,51 +1,92 @@
-﻿Console.WriteLine("Inserisci il tuo nome: ");
-string nome = Console.ReadLine();
-
-int lunghezzaNome = nome.Length;
-if (lunghezzaNome < 2)
+﻿int ReadIntInput(string question)
 {
-    Console.WriteLine("Il nome deve essere lungo almeno 2 caratteri");
+    Console.WriteLine(question);
 
+    string input = Console.ReadLine();
+    if (int.TryParse(input, out int result))
+    {
+        return result;
+    }
+    else
+    {
+        Console.WriteLine("Il valore inserito non un numero valido");
+        return 0;
+    }
+}
+
+double ReadDoubleInput(string question)
+{
+    Console.WriteLine(question);
+
+    string input = Console.ReadLine();
+    if (double.TryParse(input, out double result))
+    {
+        return result;
+    }
+    else
+    {
+        Console.WriteLine("Il valore inserito non un numero valido");
+        return 0;
+    }
+}
+
+string ReadStringInput(string question)
+{
+    Console.WriteLine(question);
+
+    return Console.ReadLine();
+}
+
+bool ValidateStringLength(string input, int minLength)
+{
+    int inputLength = input.Length;
+    if (inputLength < minLength)
+    {
+        Console.WriteLine($"Il valore inserito deve essere lungo almeno {minLength} caratteri");
+        return false;
+    }
+
+    return true;
+}
+
+bool ValidateSesso(string input)
+{
+    bool carattereAccettato = input == "m" || input == "f";
+    if (!carattereAccettato)
+    {
+        Console.WriteLine($"Il valore inserito deve essere 'm' o 'f'");
+
+        return false;
+    }
+
+    return true;
+}
+
+string nome = ReadStringInput("Inserisci il tuo nome: ");
+
+if (!ValidateStringLength(nome, 2))
+{
     return;
 }
 
-Console.Write("Inserisci il tuo cognome: ");
-string cognome = Console.ReadLine();
+string cognome = ReadStringInput("Inserisci il tuo cognome: ");
 
-int lunghezzaCognome = cognome.Length;
-if (lunghezzaCognome < 2)
+if (!ValidateStringLength(cognome, 3))
 {
-    Console.WriteLine("Il cognome deve essere lungo almeno 2 caratteri");
-
     return;
 }
 
-Console.Write("Inserisci il sesso (m/f): ");
-string sesso = Console.ReadLine();
+string sesso = ReadStringInput("Inserisci il sesso (m/f): ");
 
-bool carattereAccettato = sesso == "m" || sesso == "f";
-bool inputValido = sesso.Length == 1 && carattereAccettato;
-if (!inputValido)
+if (!ValidateSesso(sesso))
 {
-    Console.WriteLine($"Il sesso deve essere lungo esattamente 1 carattere");
-
     return;
 }
 
 
-Console.Write("Inserisci la città: ");
-string citta = Console.ReadLine();
+string citta = ReadStringInput("Inserisci la città: ");
 
-Console.WriteLine("Inserisci l'età: ");
-string eta = Console.ReadLine();
-bool etaEUnNumeroValido = int.TryParse(eta, out int etaConvertita);
-
-if (etaEUnNumeroValido == false)
-{
-    Console.WriteLine("L'età deve essere un numero");
-
-    return;
-}
+int eta = ReadIntInput("Inserisci l'età: ");
 
 Console.WriteLine("\n");
 
@@ -54,3 +95,4 @@ Console.WriteLine("Nome: " + nome);
 Console.WriteLine("Cognome: " + cognome);
 Console.WriteLine("Sesso: " + sesso);
 Console.WriteLine("Città: " + citta);
+Console.WriteLine("Età: " + eta);

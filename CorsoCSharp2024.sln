@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsercizioCalcoloMonete", "E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsercizioControlloPassword", "EsercizioControlloPassword\EsercizioControlloPassword.csproj", "{E01A2FAD-861E-4E88-B022-960F81FB24DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsercizioPalestra", "EsercizioPalestra\EsercizioPalestra.csproj", "{B64BF57E-DF2C-4DA6-A633-B7A1E15F082A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsercizioPalestra", "EsercizioPalestra\EsercizioPalestra.csproj", "{B64BF57E-DF2C-4DA6-A633-B7A1E15F082A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsercizioImpostaLorda", "EsercizioImpostaLorda\EsercizioImpostaLorda.csproj", "{DAD2A5CF-2FEB-4B6D-82B7-9D36875DF1AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsercizioImpostaLorda", "EsercizioImpostaLorda\EsercizioImpostaLorda.csproj", "{DAD2A5CF-2FEB-4B6D-82B7-9D36875DF1AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metodi", "Metodi\Metodi.csproj", "{9037BB27-5A88-4611-A7FA-4F4C14F88DDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{DAD2A5CF-2FEB-4B6D-82B7-9D36875DF1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAD2A5CF-2FEB-4B6D-82B7-9D36875DF1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAD2A5CF-2FEB-4B6D-82B7-9D36875DF1AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9037BB27-5A88-4611-A7FA-4F4C14F88DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9037BB27-5A88-4611-A7FA-4F4C14F88DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9037BB27-5A88-4611-A7FA-4F4C14F88DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9037BB27-5A88-4611-A7FA-4F4C14F88DDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
