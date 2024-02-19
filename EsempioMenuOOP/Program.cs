@@ -5,6 +5,7 @@ internal class Program
     static void Main(string[] args)
     {
         Menu menu = new Menu();
+        Dispensa dispensa = new Dispensa();
 
         Console.WriteLine("Benvenuto al ristorante");
         Console.WriteLine($"Ecco il nostro menu:\n{menu}");
@@ -24,6 +25,24 @@ internal class Program
         foreach (var item in filteredMenu)
         {
             Console.WriteLine($"- {item}");
+        }
+
+        if (filteredMenu.Length == 1)
+        {
+            string piatto = filteredMenu[0];
+            MenuItem menuItem = menu.GetMenuItem(piatto);
+            Console.WriteLine($"Vuole ordinare questo piatto {menuItem}");
+
+            bool ingredientiSufficienti = dispensa.CheckHasIngredienti(menuItem);
+
+            if (ingredientiSufficienti)
+            {
+                Console.WriteLine("Gli ingredienti sono disponibili, procedo con l'ordine");
+            }
+            else
+            {
+                Console.WriteLine("Mi dispiace, non abbiamo gli ingredienti per preparare questo piatto");
+            }
         }
     }
 }

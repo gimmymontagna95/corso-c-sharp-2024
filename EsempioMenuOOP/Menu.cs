@@ -38,6 +38,16 @@ internal class Menu
         return menuFiltrato.Length > 0;
     }
 
+    public MenuItem GetMenuItem(string nome)
+    {
+        MenuItem menuItem = Array.Find(_vociMenu, (voceDiMenu) =>
+        {
+            return voceDiMenu.ToString() == nome;
+        });
+
+        return menuItem;
+    }
+
     public string[] Filter(string filter)
     {
         string sceltaMinuscola = filter.ToLower();
