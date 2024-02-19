@@ -77,25 +77,25 @@ Console.WriteLine(concatenati);
 // ES
 // validazione input
 
-//bool inputValido = false;
-//int inputNumerico = 0;
-//while (!inputValido)
-//{
-//    Console.WriteLine("Inserisci un numero");
+bool inputValido = false;
+int inputNumerico = 0;
+while (!inputValido)
+{
+    Console.WriteLine("Inserisci un numero");
 
-//    string inputUtente = Console.ReadLine();
+    string inputUtente = Console.ReadLine();
 
-//    // il parametro è inizializzato fuori dal loop per poterlo usare fuori dal loop
-//    // altrimenti non sarebbe disponibile fuori dal loop
-//    inputValido = int.TryParse(inputUtente, out inputNumerico);
+    // il parametro è inizializzato fuori dal loop per poterlo usare fuori dal loop
+    // altrimenti non sarebbe disponibile fuori dal loop
+    inputValido = int.TryParse(inputUtente, out inputNumerico);
 
-//    if (!inputValido)
-//    {
-//        Console.WriteLine("Inserisci un numero valido");
-//    }
-//}
+    if (!inputValido)
+    {
+        Console.WriteLine("Inserisci un numero valido");
+    }
+}
 
-//Console.WriteLine($"Hai inserito il numero {inputNumerico}");
+Console.WriteLine($"Hai inserito il numero {inputNumerico}");
 
 // Do while loop
 // come il while, ma esegue il loop almeno una volta

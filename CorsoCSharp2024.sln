@@ -17,23 +17,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsercizioPalestra", "Eserci
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsercizioImpostaLorda", "EsercizioImpostaLorda\EsercizioImpostaLorda.csproj", "{DAD2A5CF-2FEB-4B6D-82B7-9D36875DF1AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metodi", "Metodi\Metodi.csproj", "{9037BB27-5A88-4611-A7FA-4F4C14F88DDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metodi", "Metodi\Metodi.csproj", "{9037BB27-5A88-4611-A7FA-4F4C14F88DDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopLevelStatements", "TopLevelStatements\TopLevelStatements.csproj", "{E1120635-7B3B-459E-878E-7AB0D0EEAD32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopLevelStatements", "TopLevelStatements\TopLevelStatements.csproj", "{E1120635-7B3B-459E-878E-7AB0D0EEAD32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsercizioCalcoloArea", "EsercizioCalcoloArea\EsercizioCalcoloArea.csproj", "{3AD598D0-EFC3-4E10-8914-5249F42D3CC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsercizioCalcoloArea", "EsercizioCalcoloArea\EsercizioCalcoloArea.csproj", "{3AD598D0-EFC3-4E10-8914-5249F42D3CC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayEList", "ArrayEList\ArrayEList.csproj", "{B948B2DD-7739-4FE0-84AD-754081BF6A50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayEList", "ArrayEList\ArrayEList.csproj", "{B948B2DD-7739-4FE0-84AD-754081BF6A50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsempioArrayMenuRistorante", "EsempioArrayMenuRistorante\EsempioArrayMenuRistorante.csproj", "{8AE3C9FA-8207-4C13-8F3D-C0EA534D06EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsempioArrayMenuRistorante", "EsempioArrayMenuRistorante\EsempioArrayMenuRistorante.csproj", "{8AE3C9FA-8207-4C13-8F3D-C0EA534D06EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cicli", "Cicli\Cicli.csproj", "{6333BBB5-6878-4C38-96C0-EF6F3FE7CD4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cicli", "Cicli\Cicli.csproj", "{6333BBB5-6878-4C38-96C0-EF6F3FE7CD4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsercizioQuiz", "EsercizioQuiz\EsercizioQuiz.csproj", "{91771457-16F9-441F-BA28-52EF23D71F83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsercizioQuiz", "EsercizioQuiz\EsercizioQuiz.csproj", "{91771457-16F9-441F-BA28-52EF23D71F83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsercizioCaesarCipher", "EsercizioCaesarCipher\EsercizioCaesarCipher.csproj", "{CD36AE8D-7B5B-4FB9-A8C4-6B0BCFA7DF80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsercizioCaesarCipher", "EsercizioCaesarCipher\EsercizioCaesarCipher.csproj", "{CD36AE8D-7B5B-4FB9-A8C4-6B0BCFA7DF80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsercizioCaesarCipher2", "EsercizioCaesarCipher2\EsercizioCaesarCipher2.csproj", "{89EDFB8F-B9F3-4659-9F2F-B4CA00E4DF2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsercizioCaesarCipher2", "EsercizioCaesarCipher2\EsercizioCaesarCipher2.csproj", "{89EDFB8F-B9F3-4659-9F2F-B4CA00E4DF2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{8FACE31D-F4CB-47ED-8D12-5235FA30FC43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{89EDFB8F-B9F3-4659-9F2F-B4CA00E4DF2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89EDFB8F-B9F3-4659-9F2F-B4CA00E4DF2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89EDFB8F-B9F3-4659-9F2F-B4CA00E4DF2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FACE31D-F4CB-47ED-8D12-5235FA30FC43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FACE31D-F4CB-47ED-8D12-5235FA30FC43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FACE31D-F4CB-47ED-8D12-5235FA30FC43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FACE31D-F4CB-47ED-8D12-5235FA30FC43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
