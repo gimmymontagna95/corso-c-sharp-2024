@@ -80,5 +80,8 @@ internal class Program
         // private: accessibile solo dalla classe stessa
         // internal: accessibile solo dallo stesso assembly (progetto)
 
+
+
+        Utente utente = new Utente("Mario", "Rossi");
     }
 }
