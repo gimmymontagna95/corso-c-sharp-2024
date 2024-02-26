@@ -35,11 +35,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsercizioCaesarCipher", "Es
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsercizioCaesarCipher2", "EsercizioCaesarCipher2\EsercizioCaesarCipher2.csproj", "{89EDFB8F-B9F3-4659-9F2F-B4CA00E4DF2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{8FACE31D-F4CB-47ED-8D12-5235FA30FC43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP", "OOP\OOP.csproj", "{8FACE31D-F4CB-47ED-8D12-5235FA30FC43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsempioMenuOOP", "EsempioMenuOOP\EsempioMenuOOP.csproj", "{0E867846-C358-4965-88FC-58596D71B5D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsempioMenuOOP", "EsempioMenuOOP\EsempioMenuOOP.csproj", "{0E867846-C358-4965-88FC-58596D71B5D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsercizioContoBancario", "EsercizioContoBancario\EsercizioContoBancario.csproj", "{93AEA42A-8FED-4E8D-AC0B-40B40BBB18BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsercizioContoBancario", "EsercizioContoBancario\EsercizioContoBancario.csproj", "{93AEA42A-8FED-4E8D-AC0B-40B40BBB18BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPInheritance", "OOPInheritance\OOPInheritance.csproj", "{D3E2C1EB-6A20-4BC4-96FD-AFE006FDFC7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsercizioInheritance", "EsercizioInheritance\EsercizioInheritance.csproj", "{5A85CA2B-A83D-4878-B307-DC3984934702}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +127,14 @@ Global
 		{93AEA42A-8FED-4E8D-AC0B-40B40BBB18BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93AEA42A-8FED-4E8D-AC0B-40B40BBB18BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93AEA42A-8FED-4E8D-AC0B-40B40BBB18BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3E2C1EB-6A20-4BC4-96FD-AFE006FDFC7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3E2C1EB-6A20-4BC4-96FD-AFE006FDFC7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3E2C1EB-6A20-4BC4-96FD-AFE006FDFC7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3E2C1EB-6A20-4BC4-96FD-AFE006FDFC7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A85CA2B-A83D-4878-B307-DC3984934702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A85CA2B-A83D-4878-B307-DC3984934702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A85CA2B-A83D-4878-B307-DC3984934702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A85CA2B-A83D-4878-B307-DC3984934702}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
