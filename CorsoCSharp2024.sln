@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsercizioInheritance", "Ese
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPPolimorfismo", "OOPPolimorfismo\OOPPolimorfismo.csproj", "{B0BF05C9-1E58-42EE-9816-2310127A7452}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsercizioQuizPolimorfismo", "EsercizioQuizPolimorfismo\EsercizioQuizPolimorfismo.csproj", "{CA96DB44-10AC-4949-91F2-8E3012F7928E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{B0BF05C9-1E58-42EE-9816-2310127A7452}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0BF05C9-1E58-42EE-9816-2310127A7452}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0BF05C9-1E58-42EE-9816-2310127A7452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA96DB44-10AC-4949-91F2-8E3012F7928E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA96DB44-10AC-4949-91F2-8E3012F7928E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA96DB44-10AC-4949-91F2-8E3012F7928E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA96DB44-10AC-4949-91F2-8E3012F7928E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
