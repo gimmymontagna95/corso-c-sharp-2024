@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liste", "Liste\Liste.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsempioLINQ", "EsempioLINQ\EsempioLINQ.csproj", "{A6554D2C-D3DF-493E-93BD-F402A08599E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsercizioWatchList", "EsercizioWatchList\EsercizioWatchList.csproj", "{167E4DA0-814B-4D4E-923A-D3B1FF85CE6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{A6554D2C-D3DF-493E-93BD-F402A08599E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6554D2C-D3DF-493E-93BD-F402A08599E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6554D2C-D3DF-493E-93BD-F402A08599E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{167E4DA0-814B-4D4E-923A-D3B1FF85CE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{167E4DA0-814B-4D4E-923A-D3B1FF85CE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{167E4DA0-814B-4D4E-923A-D3B1FF85CE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{167E4DA0-814B-4D4E-923A-D3B1FF85CE6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
