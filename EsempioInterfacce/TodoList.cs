@@ -1,5 +1,5 @@
 ﻿namespace EsempioInterfacce;
-internal class TodoList : IDisplayable
+internal class TodoList : IDisplayable, IResettable
 {
 
     public string Title { get; } = "Lista di cose da fare";
@@ -25,5 +25,13 @@ internal class TodoList : IDisplayable
     public void Add(string todo, int idx)
     {
         Todos[idx] = todo;
+    }
+
+    public void Reset()
+    {
+        for (int i = 0; i < Todos.Length; i++)
+        {
+            Todos[i] = "";
+        }
     }
 }

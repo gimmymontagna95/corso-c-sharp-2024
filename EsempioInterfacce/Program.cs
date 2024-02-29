@@ -11,7 +11,7 @@ internal class Program
         todoList.Add("Aggiustare macchinetta del caffè", 3);
         todoList.Add("Aggiustare la lampada", 4);
 
-        PasswordManager passwordManager = new PasswordManager("1234", true);
+        PasswordManager passwordManager = new PasswordManager("1234", false);
 
         PrevisioniDelTempo previsioniDelTempo = new PrevisioniDelTempo("Reggio Nell'Emilia");
 
@@ -25,6 +25,24 @@ internal class Program
             previsioniDelTempo
         };
 
+
+        foreach (var widget in widgets)
+        {
+            Console.WriteLine("-----------------------------------------");
+            Console.WriteLine(widget.Title);
+            Console.WriteLine("-----------------------------------------");
+            Console.WriteLine(widget.GetDisplayText());
+            Console.WriteLine("\n\n");
+        }
+
+        foreach (var widget in widgets)
+        {
+            if (widget is IResettable)
+            {
+                IResettable resettable = widget as IResettable;
+                resettable.Reset();
+            }
+        }
 
         foreach (var widget in widgets)
         {

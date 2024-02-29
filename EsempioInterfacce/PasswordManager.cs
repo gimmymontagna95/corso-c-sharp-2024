@@ -1,5 +1,5 @@
 ﻿namespace EsempioInterfacce;
-internal class PasswordManager : IDisplayable
+internal class PasswordManager : IDisplayable, IResettable
 {
 
     public string Title { get; } = "Password Manager";
@@ -8,7 +8,7 @@ internal class PasswordManager : IDisplayable
         return $"Password: {GetPassword()}";
     }
 
-    private readonly string _password;
+    private string _password;
 
     public bool Hidden { get; }
 
@@ -36,5 +36,10 @@ internal class PasswordManager : IDisplayable
         {
             return _password;
         }
+    }
+
+    public void Reset()
+    {
+        _password = "";
     }
 }
