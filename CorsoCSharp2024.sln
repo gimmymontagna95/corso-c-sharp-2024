@@ -41,15 +41,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsempioMenuOOP", "EsempioMe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsercizioContoBancario", "EsercizioContoBancario\EsercizioContoBancario.csproj", "{93AEA42A-8FED-4E8D-AC0B-40B40BBB18BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPInheritance", "OOPInheritance\OOPInheritance.csproj", "{D3E2C1EB-6A20-4BC4-96FD-AFE006FDFC7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPInheritance", "OOPInheritance\OOPInheritance.csproj", "{D3E2C1EB-6A20-4BC4-96FD-AFE006FDFC7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsercizioInheritance", "EsercizioInheritance\EsercizioInheritance.csproj", "{5A85CA2B-A83D-4878-B307-DC3984934702}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsercizioInheritance", "EsercizioInheritance\EsercizioInheritance.csproj", "{5A85CA2B-A83D-4878-B307-DC3984934702}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPPolimorfismo", "OOPPolimorfismo\OOPPolimorfismo.csproj", "{B0BF05C9-1E58-42EE-9816-2310127A7452}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPPolimorfismo", "OOPPolimorfismo\OOPPolimorfismo.csproj", "{B0BF05C9-1E58-42EE-9816-2310127A7452}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsercizioQuizPolimorfismo", "EsercizioQuizPolimorfismo\EsercizioQuizPolimorfismo.csproj", "{CA96DB44-10AC-4949-91F2-8E3012F7928E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsercizioQuizPolimorfismo", "EsercizioQuizPolimorfismo\EsercizioQuizPolimorfismo.csproj", "{CA96DB44-10AC-4949-91F2-8E3012F7928E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsercizioRPG", "EsercizioRPG\EsercizioRPG.csproj", "{95884C71-E0AA-4146-9226-5CD8F8C83C99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsercizioRPG", "EsercizioRPG\EsercizioRPG.csproj", "{95884C71-E0AA-4146-9226-5CD8F8C83C99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfacce", "Interfacce\Interfacce.csproj", "{DA0EEB47-2A8F-4321-8519-B188EFABB4B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsempioInterfacce", "EsempioInterfacce\EsempioInterfacce.csproj", "{A592C1A4-D880-486D-A160-7F3E53046E09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +157,14 @@ Global
 		{95884C71-E0AA-4146-9226-5CD8F8C83C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95884C71-E0AA-4146-9226-5CD8F8C83C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95884C71-E0AA-4146-9226-5CD8F8C83C99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA0EEB47-2A8F-4321-8519-B188EFABB4B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA0EEB47-2A8F-4321-8519-B188EFABB4B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA0EEB47-2A8F-4321-8519-B188EFABB4B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA0EEB47-2A8F-4321-8519-B188EFABB4B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A592C1A4-D880-486D-A160-7F3E53046E09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A592C1A4-D880-486D-A160-7F3E53046E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A592C1A4-D880-486D-A160-7F3E53046E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A592C1A4-D880-486D-A160-7F3E53046E09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
