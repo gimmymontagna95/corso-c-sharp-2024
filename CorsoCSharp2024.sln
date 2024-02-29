@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsempioInterfacce", "Esempi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceEValueTypes", "ReferenceEValueTypes\ReferenceEValueTypes.csproj", "{D540CC00-BDC6-49CF-8F9F-246D48A52C4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struct", "Struct\Struct.csproj", "{788316D2-59CA-4BAB-8851-438B84E96480}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +173,10 @@ Global
 		{D540CC00-BDC6-49CF-8F9F-246D48A52C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D540CC00-BDC6-49CF-8F9F-246D48A52C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D540CC00-BDC6-49CF-8F9F-246D48A52C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{788316D2-59CA-4BAB-8851-438B84E96480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{788316D2-59CA-4BAB-8851-438B84E96480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{788316D2-59CA-4BAB-8851-438B84E96480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{788316D2-59CA-4BAB-8851-438B84E96480}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
